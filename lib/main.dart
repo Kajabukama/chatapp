@@ -7,8 +7,11 @@ class ChatApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        fontFamily: 'Cereal',
         primaryColor: Colors.amber,
+        accentColor: Colors.amber.shade200,
       ),
       home: HomeScreen(),
     );
