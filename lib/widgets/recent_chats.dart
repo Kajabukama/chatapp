@@ -49,7 +49,7 @@ class RecentChat extends StatelessWidget {
                             Text(
                               chat.sender.name,
                               style: TextStyle(
-                                fontSize: 18.0,
+                                fontSize: 16.0,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),

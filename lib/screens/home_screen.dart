@@ -17,8 +17,8 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text(
           'GoTHOMIS',
           style: TextStyle(
-            fontSize: 24.0,
-            color: Colors.black,
+            fontSize: 20.0,
+            color: Colors.white,
             fontWeight: FontWeight.bold,
           ),
         ),

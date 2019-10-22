@@ -17,8 +17,8 @@ class FavoriteContact extends StatelessWidget {
               Text(
                 'Favorites Contacts',
                 style: TextStyle(
-                  fontSize: 16.0,
-                  fontWeight: FontWeight.bold,
+                  fontSize: 14.0,
+                  fontWeight: FontWeight.w500,
                 ),
               ),
               Icon(
@@ -53,7 +53,7 @@ class FavoriteContact extends StatelessWidget {
                   Text(
                     favorites[index].username,
                     style:
-                        TextStyle(fontSize: 17.0, fontWeight: FontWeight.bold),
+                        TextStyle(fontSize: 14.0, fontWeight: FontWeight.bold),
                   ),
                 ],
               );

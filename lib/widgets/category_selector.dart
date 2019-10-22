@@ -6,7 +6,14 @@ class CategorySelector extends StatefulWidget {
 
 class _CategorySelectorState extends State<CategorySelector> {
   int selectedIndex = 0;
-  final List<String> categories = ['Messages', 'Online', 'Group', 'Requests'];
+  final List<String> categories = [
+    'Messages',
+    'Online',
+    'Group',
+    'Requests',
+    'Important',
+    'Pending'
+  ];
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -18,7 +25,7 @@ class _CategorySelectorState extends State<CategorySelector> {
         itemBuilder: (context, index) {
           return Container(
             padding: EdgeInsets.symmetric(
-              horizontal: 20.0,
+              horizontal: 10.0,
               vertical: 30.0,
             ),
             child: GestureDetector(
@@ -30,7 +37,7 @@ class _CategorySelectorState extends State<CategorySelector> {
               child: Text(
                 categories[index],
                 style: TextStyle(
-                    fontSize: 22.0,
+                    fontSize: 16.0,
                     color:
                         index == selectedIndex ? Colors.white : Colors.white60,
                     wordSpacing: 1.3,
